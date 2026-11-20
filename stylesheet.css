@@ -1,3 +1,26 @@
+.robotics-timeline {
+  border-left: 1px solid #ccc;
+  margin: 1em 0 1em 0.3em;
+  padding-left: 1.2em;
+  list-style: none;
+}
+
+.robotics-timeline li {
+  position: relative;
+  margin-bottom: 0.55em;
+}
+
+.robotics-timeline li::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.2em - 3.5px);
+  top: 0.45em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #555;
+}
+
 /* ==========================================================================
    Site-Wide Fonts & Design Policy (shared across homepage, papers, and demos)
    --------------------------------------------------------------------------
@@ -209,7 +232,8 @@ h2 {
 }
 
 .bio-photo img {
-  width: 100%;
+  width: 86.6025%;
+  margin-inline: auto;
   height: auto;
   aspect-ratio: 1;
   display: block;
@@ -362,6 +386,16 @@ h2 {
   margin-top: 18px;
 }
 
+@media (min-width: 641px) {
+  .bio {
+    align-items: flex-end;
+  }
+
+  .bio-text > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 @media (max-width: 640px) {
   .page {
     padding: 0;
@@ -383,7 +417,7 @@ h2 {
   }
 
   .bio-photo img {
-    width: 148px;
+    width: 128.17px;
     margin: 0 auto;
   }
 
