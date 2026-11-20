@@ -1,128 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your Paper Title</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            font-size: 1.5em;
-            color: #555;
-        }
-
-        p {
-            font-size: 1.2em;
-            color: #666;
-            line-height: 1.6;
-        }
-
-        .video-container {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin-top: 40px;
-        }
-
-        .video-box {
-            flex: 1;
-            min-width: 300px;
-            margin: 10px;
-        }
-
-        video {
-            width: 100%;
-            height: auto;
-            border: 2px solid #ddd;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .video-title {
-            font-size: 1.2em;
-            margin-bottom: 10px;
-            text-align: center;
-        }
-
-        @media (max-width: 768px) {
-            .video-box {
-                flex: 1 1 100%;
-            }
-        }
-
-        footer {
-            margin-top: 50px;
-            font-size: 0.9em;
-            color: #777;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jun Xie</title>
+  <meta name="author" content="Jun Xie">
+  <meta name="description" content="Jun Xie's research in robot learning, vision-language-action models and humanoid loco-manipulation at Northeastern University.">
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
+  <main class="page">
+    <header class="bio">
+      <div class="bio-text">
+        <h1 class="name">Jun Xie (<span lang="zh-CN">谢俊</span>)</h1>
+        <p class="bio-links"><a href="mailto:boxjod@163.com">Email</a> / <a href="#academic-cv">Academic CV</a> / <a href="https://github.com/Boxjod">GitHub</a> / <a href="https://space.bilibili.com/122291348">Bilibili (<span lang="zh-CN">盒子桥</span>)</a> / <span>WeChat: boxjod</span></p>
+        <p>I'm a master's student in a joint training program between Northeastern University's Faculty of Robot Science and Engineering and Tianjin University's College of Artificial Intelligence. I founded <a href="https://github.com/box2ai-robotics">Box2AI</a>, an open-source community for embodied AI.</p>
+        <p>I built a chatbot in middle school. As a college freshman, I started building robots from scratch. I designed the mechanisms and circuit boards and wrote the embedded software. Today I work on agentic manipulation and humanoid loco-manipulation. How can a robot use what it sees and feels after one action to choose the next? How should a humanoid move its whole body as it handles an object?</p>
+        <p>I'd like to take a humanoid I've built on a high-speed train in China and buy it a ticket of its own.</p>
+      </div>
+      <div class="bio-photo">
+        <img src="images/xiejun.jpg" width="1562" height="2570" alt="Jun Xie">
+      </div>
+    </header>
 
-    <div class="container">
-        <!-- Paper Title and Author Information -->
-        <h1>Your Paper Title Here</h1>
-        <h2>Author Name1, Author Name2, ...</h2>
-        <h2>University/Institute</h2>
+    <section class="section-header">
+      <h2 id="academic-cv">Selected Publications and Manuscripts</h2>
+      <div class="profile-entry">
+        <a href="https://loopmaster.ai/loopros/assets/LoopROS_1103.pdf#page=1"><img src="images/loopros-figure-1.webp" width="991" height="676" alt="Figure 1 from the loopros manuscript" loading="lazy"></a>
+        <p><strong><a href="https://www.preprints.org/manuscript/202611.1563">LoopROS: A Deployable Recursive Self-Improvement Framework for Robotic Manipulation Based on Logical and Physical Constraints</a></strong><br>
+        Meilin Suo<sup>*</sup>, <b>Jun Xie</b><sup>*</sup>, Junliang Zhang<sup>*</sup>, Huanxu Lin, Yangguang Sun, Zechen Bai, and XiaoGuang Ma<br>
+        Under review at <em>CVPR 2027</em>.<br>
+        <a href="https://www.preprints.org/manuscript/202611.1563">Preprints</a> / <a href="https://loopmaster.ai/loopros">Blog</a></p>
+      </div>
+      <div class="profile-entry">
+        <a href="https://doi.org/10.1016/j.patrec.2026.09.015"><img src="images/TSF-IL.png" width="1026" height="688" alt="TSF-IL paper figure" loading="lazy"></a>
+        <p><strong><a href="https://doi.org/10.1016/j.patrec.2026.09.015">TSF-IL: Multimodal imitation learning with temporal-stage fusion</a></strong><br>
+        Jianwei Tan, <b>Jun Xie</b>, Huanxu Lin, Zhicheng Wang, and Xiaoguang Ma<br>
+        <em>Pattern Recognition Letters</em> 209 (2026), 223&ndash;229.</p>
+      </div>
+      <div class="profile-entry">
+        <a href="https://arxiv.org/pdf/2412.20368#page=2"><img src="images/Subconscious_imitation_learning.png" width="1998" height="749" alt="Subconscious Robotic Imitation Learning figure" loading="lazy"></a>
+        <p><strong><a href="https://doi.org/10.3233/faia251231">Subconscious Robotic Imitation Learning</a></strong><br>
+        <b>Jun Xie</b><sup>*</sup>, Zhicheng Wang<sup>*</sup>, Jianwei Tan, Huanxu Lin, Yang Jiang, and Xiaoguang Ma<br>
+        <em>ECAI 2025</em>, Frontiers in Artificial Intelligence and Applications, vol. 413.</p>
+      </div>
+      <div class="profile-entry">
+        <a href="https://arxiv.org/pdf/2408.10568#page=2"><img src="images/Constrained_Behavior_Cloing.png" width="1663" height="731" alt="Constrained Behavior Cloning for Robotic Learning figure" loading="lazy"></a>
+        <p><strong><a href="https://doi.org/10.1109/IROS60139.2025.11246164">Constrained Behavior Cloning for Robotic Learning</a></strong><br>
+        <b>Jun Xie</b><sup>*</sup>, Jianwei Tan<sup>*</sup>, Wensheng Liang, Zhicheng Wang, and Xiaoguang Ma<br>
+        <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2025.</p>
+      </div>
+    </section>
 
-        <!-- Abstract Section -->
-        <p>
-            <strong>Abstract:</strong><br>
-            Here you will write your paper abstract. Provide a brief summary of your research, highlighting the main contributions and findings. This abstract should be concise and clear.
-        </p>
+    <section class="section-header">
+      <h2>Selected Robotics Projects</h2>
+      <div class="profile-entry">
+        <a href="images/LoopMaster.png"><img src="images/LoopMaster.png" width="1963" height="1134" alt="LoopMaster project image" loading="lazy"></a>
+        <p><strong><a href="https://github.com/Boxjod/loopmaster">LoopMaster</a></strong><br>
+        LoopMaster plans, executes and verifies tasks on the HEI ReBot Lift robot. It took first place overall at the Tanyue Physical AI Hackathon and later became the basis for <a href="https://loopmaster.ai/loopros">LoopROS</a>.</p>
+      </div>
+      <div class="profile-entry">
+        <a href="https://github.com/box2ai-robotics/box2robot"><img src="images/Box2Robot.png" width="1644" height="946" alt="Box2Robot project image" loading="lazy"></a>
+        <p><strong><a href="https://github.com/box2ai-robotics/box2robot">Box2Robot</a></strong> · April 2026<br>
+        A custom driver board and wireless video link connect the robot to a cloud system for collecting demonstrations, training policies and running them on the robot.</p>
+      </div>
+      <div class="profile-entry">
+        <a href="images/Clawphone.png"><img src="images/Clawphone.png" width="1290" height="825" alt="ClawPhone prototype" loading="lazy"></a>
+        <p><strong>ClawPhone</strong> &middot; February 2026<br>
+        OpenClaw runs on the phone and responds to voice commands such as &ldquo;Open Maps.&rdquo; The robotic mount reacts to the speaker's tone and follows their face during video calls.</p>
+      </div>
+      <div class="profile-entry">
+        <a href="images/boxman.png"><img src="images/boxman.png" width="2065" height="1161" alt="boxman project image" loading="lazy"></a>
+        <p><strong>BoxMan and BoxArm</strong> · July 2025<br>
+        BoxMan is a doll-sized humanoid. BoxArm pairs a seven-axis arm with a dexterous hand that has eight degrees of freedom.</p>
+      </div>
+      <div class="profile-entry">
+        <a href="images/DengBot.png"><img src="images/DengBot.png" width="1791" height="944" alt="DengBot prototype" loading="lazy"></a>
+        <p><strong>DengBot</strong> &middot; March 2025<br>
+        Inspired by Apple's ELEGNT prototype, this robotic desk lamp uses movement and posture to express emotion. It responds to visual feedback in real time and can perform simple tabletop tasks on a schedule.</p>
+      </div>
+      <div class="profile-entry">
+        <a href="https://github.com/Boxjod/RLBench_ACT"><img src="images/RLBench-ACT.png" width="1582" height="741" alt="Simulated robot arm sorting colored blocks in RLBench" loading="lazy"></a>
+        <p><strong><a href="https://github.com/Boxjod/RLBench_ACT">RLBench-ACT</a></strong> · September 2024<br>
+        I built RLBench-ACT as the simulation component of my undergraduate capstone project on autonomous robotic sorting. It generates sorting demonstrations in RLBench for training Action Chunking Transformer (ACT) policies.</p>
+      </div>
+      <div class="profile-entry">
+        <a href="https://github.com/box2ai-robotics/joycon-robotics"><img src="images/joycon.webp" width="640" height="360" alt="Robot setup from the joycon-robotics project" loading="lazy"></a>
+        <p><strong><a href="https://github.com/box2ai-robotics/joycon-robotics">joycon-robotics</a></strong> · January 2024<br>
+        Operators can control more than 20 robot arms with Nintendo Joy-Con controllers. Related projects include <a href="https://github.com/box2ai-robotics/lerobot-kinematics">lerobot-kinematics</a> and <a href="https://github.com/box2ai-robotics/lerobot-joycon">lerobot-joycon</a>.</p>
+      </div>
+    </section>
 
-        <!-- Video Comparison Section -->
-        <div class="video-container">
-            <!-- Video 1 -->
-            <div class="video-box">
-                <div class="video-title">Original Video</div>
-                <video controls>
-                    <source src="resources/video3_origin.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-
-            <!-- Video 2 -->
-            <div class="video-box">
-                <div class="video-title">Our Video</div>
-                <video controls>
-                    <source src="resources/video3_ours.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
-
-        <!-- Research Principles or Highlights -->
-        <p>
-            <strong>Research Highlights or Principle:</strong><br>
-            You can describe the main principles or innovations of your research here. This section can also contain diagrams, additional explanations, or bullet points.
-        </p>
-    </div>
-
-    <footer>
-        &copy; 2024 Your Name | Your Institution
-    </footer>
-
+    <section class="section-header">
+      <h2>Research and Professional Experience</h2>
+      <p><strong>Tianjin University</strong> · Tianjin, China<br>
+        In the third year of my master's program at Northeastern University, I joined the Embodied Brain Lab in Tianjin University's College of Artificial Intelligence for joint research training under Professor Xiaoguang Ma (<span lang="zh-CN">马晓光</span>).<br>
+        In July 2026, I helped design the undergraduate Embodied AI curriculum and served as a teaching assistant for its lab courses.</p>
+      <p><strong>Chongqing Academy of Science and Technology</strong> · May 2025<br>
+        Helped establish an embodied intelligence research center and guided work on embodied AI algorithms and humanoid robot development.</p>
+      <p><strong>ARX</strong> · July 2024–March 2025<br>
+        Joined the early team as an embodied AI intern and helped develop vision-language-action algorithms.</p>
+      <p><strong>Midea Central Research Institute</strong> &middot; January 2024<br>
+        Wensheng Liang (<span lang="zh-CN">梁文生</span>) introduced me to the institute, where I took part in exploratory research on embodied AI algorithms.</p>
+      <p><strong>DJI RoboMaster</strong> &middot; July 2022<br>
+        Competed in RoboMaster as a core team member and received an internship certificate during the on-site competition.</p>
+      <p><strong>PawSwing</strong> &middot; July&ndash;August 2021<br>
+        As an intern, I helped produce mechanical components for an automatic cat grooming brush.</p>
+    </section>
+    <footer class="site-footer">I stole this template from <a href="https://github.com/jonbarron/jonbarron.github.io">Jon Barron</a> and gave it a makeover.</footer>
+  </main>
 </body>
 </html>
